@@ -12,40 +12,8 @@
   <title>Hello, world!</title>
 </head>
 
-<body class="bg-dark">
+<body class="bg-secondary">
   <header>
-    <nav class="navbar navbar-expand-lg navbar-light bg-light">
-      <div class="navbar-collapse">
-        <div class="col-lg-7 d-lg-inline d-sm-none">
-          <a class="navbar-brand col-lg-5" href="#">Tel:123456789</a>
-          <a class="navbar-brand col-lg-6" href="#">Welcome to our store</a>
-        </div>
-        <form class="col-lg-5">
-          <div class="form-row align-items-center">
-            <div class="col-lg-4 col-sm-6 my-1">
-              <label class="mr-sm-2 sr-only" for="inlineFormCustomSelect">Preference</label>
-              <select class="custom-select mr-sm-2" id="inlineFormCustomSelect">
-                <option selected>AM</option>
-                <option value="RU">RU</option>
-                <option value="EN">EN</option>
-              </select>
-            </div>
-            <div class="col-lg-4 col-sm-6 my-1">
-              <label class="mr-sm-2 sr-only" for="inlineFormCustomSelect">Preference</label>
-              <select class="custom-select mr-sm-2" id="inlineFormCustomSelect">
-                <option selected>$</option>
-                <option value="RU">&euro;</option>
-              </select>
-            </div>
-            <div class="col-lg-4 m-auto d-lg-inline d-sm-none">
-              <button type="button" class="btn btn-primary col-lg-12">
-                Wishlist <span class="badge badge-dark bg-danger">3</span>
-              </button>
-            </div>
-          </div>
-        </form>
-      </div>
-    </nav>
     <nav class="navbar navbar-expand-lg navbar-white bg-dark">
       <div class="navbar-collapse d-sm-flex">
         <div class="col-lg-6 col-sm-9">
@@ -66,8 +34,8 @@
             <div class="dropdown-menu" aria-labelledby="MenuButton">
               <a class="dropdown-item" data-toggle="modal" data-target="#exampleModal" href="#">Login</a>
               <a class="dropdown-item" data-toggle="modal" data-target="#example1Modal" href="#">Register</a>
-              <a class="dropdown-item" href="#">My Orders</a>
-              <a class="dropdown-item" href="#">Account Settings</a>
+              <a class="dropdown-item" href="myaccount.html">My Account</a>
+              <a class="dropdown-item" href="myinfo.html">My Info</a>
             </div>
           </div>
         </div>
@@ -149,6 +117,7 @@
           </li>
         </ul>
       </div>
+
     </nav>
   </header>
   <main>
@@ -159,8 +128,8 @@
       </button>
     </div>
     <div class="col">
-      <div id="carouselExampleIndicators" class="carousel slide bg-dark d-none d-md-block" data-ride="carousel">
-        <ol class="carousel-indicators bg-dark">
+      <div id="carouselExampleIndicators" class="carousel slide d-none d-md-block" data-ride="carousel">
+        <ol class="carousel-indicators">
           <li data-target="#carouselExampleIndicators" data-slide-to="0" class="active"></li>
           <li data-target="#carouselExampleIndicators" data-slide-to="1"></li>
           <li data-target="#carouselExampleIndicators" data-slide-to="2"></li>
@@ -172,7 +141,7 @@
                 <h1 class="text-light">Iphone 7+</h1>
                 <p class="text-light">The fastest
                   performance and best battery life in an iPhone. Water and splash resistant.</p>
-                <button type="button" class="btn btn-light">Add to card</button>
+                <a href="shopping-cart.html" type="button" class="btn btn-light">Add to card</a>
                 <a href="shop.html" class="btn btn-primary">View More</a>
               </div>
               <img src="img/img1.png" class="d-block w-25" alt="...">
@@ -185,7 +154,7 @@
                 <h1 class="text-light">Iphone 7+</h1>
                 <p class="text-light">The fastest
                   performance and best battery life in an iPhone. Water and splash resistant.</p>
-                <button type="button" class="btn btn-light">Add to card</button>
+                <a href="shopping-cart.html" type="button" class="btn btn-light">Add to card</a>
                 <a href="shop.html" class="btn btn-primary">View More</a>
               </div>
               <img src="img/img2.png" class="d-block w-25" alt="...">
@@ -198,7 +167,7 @@
                 <h1 class="text-light" 1>Iphone 7</h1>
                 <p class="text-light">The fastest
                   performance and best battery life in an iPhone. Water and splash resistant.</p>
-                <button type="button" class="btn btn-light">Add to card</button>
+                  <a href="shopping-cart.html" type="button" class="btn btn-light">Add to card</a>
                 <a href="shop.html" class="btn btn-primary">View More</a>
               </div>
               <img src="img/img3.png" class="d-block w-25" alt="...">
@@ -217,80 +186,80 @@
       </div>
     </div>
     <div class="container">
-      <div class="row bg-dark m-5">
+      <div class="row m-5">
         <div class="col-md-12">
           <h1 class="text-light text-center">Daily Deals</h1>
         </div>
         <div class="row d-flex align-content-around flex-wrap">
-          <div class="col">
-            <div class="card" style="width: 18rem;">
+          <div class="col-12 col-md-6 col-lg-4">
+            <div class="card">
               <img src="img/img1.png" class="card-img-top" alt="...">
               <div class="card-body">
-                <h5 class="card-title">Iphone 8+ Gold</h5>
+                <h5 class="card-title">Apple Iphone 8+ Gold (64Gb)</h5>
                 <p class="card-text">Product 1</p>
                 <p class="text-primary">$299.99</p>
                 <p class="text-dark" style="text-decoration:line-through">$599.99</p>
-                <a href="#" class="btn btn-primary">Add to card</a>
+                <a href="shopping-cart.html" class="btn btn-primary">Add to card</a>
               </div>
             </div>
           </div>
-          <div class="col">
-            <div class="card" style="width: 18rem;">
+          <div class="col-12 col-md-6 col-lg-4">
+            <div class="card">
               <img src="img/img2.png" class="card-img-top" alt="...">
               <div class="card-body">
-                <h5 class="card-title">Iphone 8+ JetBlack</h5>
+                <h5 class="card-title">Iphone 8+ JetBlack (64Gb)</h5>
                 <p class="card-text">Product 1</p>
                 <p class="text-primary">$299.99</p>
                 <p class="text-dark" style="text-decoration:line-through">$599.99</p>
-                <a href="#" class="btn btn-primary">Add to card</a>
+                <a href="shopping-cart.html" class="btn btn-primary">Add to card</a>
               </div>
             </div>
           </div>
-          <div class="col">
-            <div class="card" style="width: 18rem;">
+          <div class="col-12 col-md-6 col-lg-4">
+            <div class="card">
               <img src="img/img3.png" class="card-img-top" alt="...">
               <div class="card-body">
-                <h5 class="card-title">Iphone 8 Silver</h5>
+                <h5 class="card-title"> Apple Iphone 8 Silver (64Gb)</h5>
                 <p class="card-text">Product 1</p>
                 <p class="text-primary">$249.99</p>
                 <p class="text-dark" style="text-decoration:line-through">$549.99</p>
-                <a href="#" class="btn btn-primary">Add to card</a>
+                <a href="shopping-cart.html" class="btn btn-primary">Add to card</a>
               </div>
             </div>
           </div>
-          <div class="col">
-            <div class="card" style="width: 18rem;">
+          <div class="col-12 col-md-6 col-lg-4">
+            <div class="card">
               <img src="img/img4.jpg" class="card-img-top" alt="...">
               <div class="card-body">
-                <h5 class="card-title">Iphone 6S 32GB (Gold)</h5>
+                <h5 class="card-title">Apple Iphone 6S 32GB (Gold)</h5>
                 <p class="card-text">Product 1</p>
                 <p class="text-primary">$139.99</p>
                 <p class="text-dark" style="text-decoration:line-through">$199.99</p>
-                <a href="#" class="btn btn-primary">Add to card</a>
+                <a href="shopping-cart.html" class="btn btn-primary">Add to card</a>
               </div>
             </div>
           </div>
-          <div class="col">
-            <div class="card" style="width: 18rem;">
+          <div class="col-12 col-md-6 col-lg-4">
+            <div class="card">
               <img src="img/img5.jpg" class="card-img-top" alt="...">
               <div class="card-body">
-                <h5 class="card-title">Iphone xS 512GB (Silver)</h5>
+                <h5 class="card-title">Apple Iphone xS 512GB (Silver)</h5>
                 <p class="card-text">Product 1</p>
                 <p class="text-primary">$999.99</p>
                 <p class="text-dark" style="text-decoration:line-through">$1299.99</p>
-                <a href="#" class="btn btn-primary">Add to card</a>
+                <a href="shopping-cart.html" class="btn btn-primary">Add to card</a>
               </div>
             </div>
           </div>
-          <div class="col">
-            <div class="card" style="width: 18rem;">
+          <div class="col-12 col-md-6 col-lg-4">
+            <div class="card">
               <img src="img/img6.jpg" class="card-img-top" alt="...">
               <div class="card-body">
                 <h5 class="card-title">Iphone 11 Pro Max 512GB (Space Gray)</h5>
                 <p class="card-text">Product 1</p>
                 <p class="text-primary">$1299.99</p>
                 <p class="text-dark" style="text-decoration:line-through">$1399.99</p>
-                <a href="#" class="btn btn-primary">Add to card</a>
+                <a href="shopping-cart.html" class="btn btn-primary">Add to card</a>
               </div>
             </div>
           </div>
@@ -298,13 +267,13 @@
       </div>
     </div>
     <div class="container">
-      <div class="row bg-dark m-5">
+      <div class="row m-5">
         <div class="col-md-12">
           <h1 class="text-center text-light">Categories</h1>
         </div>
-        <div class="row bg-dark align-content-center flex-wrap">
-          <div class="col">
-            <div class="card" style="width: 18rem;">
+        <div class="row align-content-center flex-wrap">
+          <div class="col-12 col-md-6 col-lg-4">
+            <div class="card">
               <img src="img/img2.png" class="card-img-top d-none d-md-block" alt="...">
               <div class="card-body">
                 <h5 class="card-title">Iphone</h5>
@@ -312,8 +281,8 @@
               </div>
             </div>
           </div>
-          <div class="col">
-            <div class="card" style="width: 18rem;">
+          <div class="col-12 col-md-6 col-lg-4">
+            <div class="card">
               <img src="img/samsung.png" class="card-img-top d-none d-md-block" alt="...">
               <div class="card-body">
                 <h5 class="card-title">Samsung</h5>
@@ -321,8 +290,8 @@
               </div>
             </div>
           </div>
-          <div class="col">
-            <div class="card" style="width: 18rem;">
+          <div class="col-12 col-md-6 col-lg-4">
+            <div class="card">
               <img src="img/xiaomi.jpg" class="card-img-top d-none d-md-block" alt="...">
               <div class="card-body">
                 <h5 class="card-title">Xiaomi</h5>
@@ -330,8 +299,8 @@
               </div>
             </div>
           </div>
-          <div class="col">
-            <div class="card" style="width: 18rem;">
+          <div class="col-12 col-md-6 col-lg-4">
+            <div class="card">
               <img src="img/ipad.jpg" class="card-img-top d-none d-md-block" alt="...">
               <div class="card-body">
                 <h5 class="card-title">Ipad</h5>
@@ -339,8 +308,8 @@
               </div>
             </div>
           </div>
-          <div class="col">
-            <div class="card" style="width: 18rem;">
+          <div class="col-12 col-md-6 col-lg-4">
+            <div class="card">
               <img src="img/nokia.jpg" class="card-img-top d-none d-md-block" alt="...">
               <div class="card-body">
                 <h5 class="card-title">Nokia</h5>
@@ -348,8 +317,8 @@
               </div>
             </div>
           </div>
-          <div class="col">
-            <div class="card" style="width: 18rem;">
+          <div class="col-12 col-md-6 col-lg-4">
+            <div class="card">
               <img src="img/sony.jpg" class="card-img-top d-none d-md-block" alt="...">
               <div class="card-body">
                 <h5 class="card-title">Sony</h5>
@@ -361,44 +330,44 @@
       </div>
     </div>
     <div class="container">
-      <div class="row bg-dark m-5">
+      <div class="row m-5">
         <div class="col-md-12">
           <h1 class="text-light text-center">New Arrivals</h1>
         </div>
         <div class="row align-content-center flex-wrap">
-          <div class="col">
-            <div class="card" style="width: 18rem;">
+          <div class="col-12 col-md-6 col-lg-4">
+            <div class="card">
               <img src="img/img7.jpg" class="card-img-top" alt="...">
               <div class="card-body">
                 <h5 class="card-title">Apple iPhone Xs 64GB (Gold)</h5>
                 <p class="card-text">Product 1</p>
                 <p class="text-primary">$899.99</p>
                 <p class="text-dark" style="text-decoration:line-through">$949.99</p>
-                <a href="#" class="btn btn-primary">Add to card</a>
+                <a href="shopping-cart.html" class="btn btn-primary">Add to card</a>
               </div>
             </div>
           </div>
-          <div class="col">
-            <div class="card" style="width: 18rem;">
+          <div class="col-12 col-md-6 col-lg-4">
+            <div class="card">
               <img src="img/img8.jpg" class="card-img-top" alt="...">
               <div class="card-body">
-                <h5 class="card-title">Iphone 11 256GB (Red)</h5>
+                <h5 class="card-title">Apple Iphone 11 256GB (Red)</h5>
                 <p class="card-text">Product 1</p>
                 <p class="text-primary">$1199.99</p>
                 <p class="text-dark" style="text-decoration:line-through">$1299.99</p>
-                <a href="#" class="btn btn-primary">Add to card</a>
+                <a href="shopping-cart.html" class="btn btn-primary">Add to card</a>
               </div>
             </div>
           </div>
-          <div class="col">
-            <div class="card" style="width: 18rem;">
+          <div class="col-12 col-md-6 col-lg-4">
+            <div class="card">
               <img src="img/img9.jpg" class="card-img-top" alt="...">
               <div class="card-body">
-                <h5 class="card-title">Apple iPhone Xs 512GB (Space Grey)</h5>
+                <h5 class="card-title">Apple iPhone Xs 512GB</h5>
                 <p class="card-text">Product 1</p>
                 <p class="text-primary">$1459.99</p>
                 <p class="text-dark" style="text-decoration:line-through">$1699.99</p>
-                <a href="#" class="btn btn-primary">Add to card</a>
+                <a href="shopping-cart.html" class="btn btn-primary">Add to card</a>
               </div>
             </div>
           </div>
@@ -537,47 +506,47 @@
     </div>
   </div>
   <div class="modal fade" id="example1Modal" tabindex="-1" role="dialog" aria-labelledby="exampleModalLabel"
-  aria-hidden="true">
-  <div class="modal-dialog" role="document">
-    <div class="modal-content">
-      <div class="modal-header">
-        <h5 class="modal-title" id="exampleModalLabel">Login</h5>
-        <button type="button" class="close" data-dismiss="modal" aria-label="Close">
-          <span aria-hidden="true">&times;</span>
-        </button>
-      </div>
-      <div class="modal-body">
-        <form>
-          <div class="form-group">
-            <label for="exampleInputEmail1">Email address</label>
-            <input type="email" class="form-control" id="exampleInputEmail1" aria-describedby="emailHelp">
-            <small id="emailHelp" class="form-text text-muted">We'll never share your email with anyone else.</small>
-          </div>
-          <div class="form-group">
-            <label for="formGroupExampleInput">First Name</label>
-            <input type="text" class="form-control" id="formGroupExampleInput">
-          </div>
-          <div class="form-group">
-            <label for="formGroupExampleInput">Second Name</label>
-            <input type="text" class="form-control" id="formGroupExampleInput">
-          </div>
-          <div class="form-group">
-            <label for="exampleInputPassword1">Password</label>
-            <input type="password" class="form-control" id="exampleInputPassword1">
-          </div>
-          <div class="form-group">
-            <label for="exampleInputPassword1">Confirm Password</label>
-            <input type="password" class="form-control" id="exampleInputPassword1">
-          </div>
-        </form>
-      </div>
-      <div class="modal-footer">
-        <button type="button" class="btn btn-secondary" data-dismiss="modal">Close</button>
-        <button type="button" class="btn btn-primary">Save changes</button>
+    aria-hidden="true">
+    <div class="modal-dialog" role="document">
+      <div class="modal-content">
+        <div class="modal-header">
+          <h5 class="modal-title" id="exampleModalLabel">Login</h5>
+          <button type="button" class="close" data-dismiss="modal" aria-label="Close">
+            <span aria-hidden="true">&times;</span>
+          </button>
+        </div>
+        <div class="modal-body">
+          <form>
+            <div class="form-group">
+              <label for="exampleInputEmail1">Email address</label>
+              <input type="email" class="form-control" id="exampleInputEmail1" aria-describedby="emailHelp">
+              <small id="emailHelp" class="form-text text-muted">We'll never share your email with anyone else.</small>
+            </div>
+            <div class="form-group">
+              <label for="formGroupExampleInput">First Name</label>
+              <input type="text" class="form-control" id="formGroupExampleInput">
+            </div>
+            <div class="form-group">
+              <label for="formGroupExampleInput">Second Name</label>
+              <input type="text" class="form-control" id="formGroupExampleInput">
+            </div>
+            <div class="form-group">
+              <label for="exampleInputPassword1">Password</label>
+              <input type="password" class="form-control" id="exampleInputPassword1">
+            </div>
+            <div class="form-group">
+              <label for="exampleInputPassword1">Confirm Password</label>
+              <input type="password" class="form-control" id="exampleInputPassword1">
+            </div>
+          </form>
+        </div>
+        <div class="modal-footer">
+          <button type="button" class="btn btn-secondary" data-dismiss="modal">Close</button>
+          <button type="button" class="btn btn-primary">Save changes</button>
+        </div>
       </div>
     </div>
   </div>
-</div>
   <!-- Optional JavaScript -->
   <!-- jQuery first, then Popper.js, then Bootstrap JS -->
   <script src="https://kit.fontawesome.com/38196a33d5.js" crossorigin="anonymous"></script>

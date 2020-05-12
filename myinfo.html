@@ -1,0 +1,327 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.4.1/css/bootstrap.min.css"
+        integrity="sha384-Vkoo8x4CGsO3+Hhxv8T/Q5PaXtkKtu6ug5TOeNV6gBiFeWPGFN9MuhOf23Q9Ifjh" crossorigin="anonymous">
+    <title>Hello, world!</title>
+</head>
+
+<body>
+    <header>
+        <nav class="navbar navbar-expand-lg navbar-white bg-dark">
+            <div class="navbar-collapse d-sm-flex">
+                <div class="col-lg-6 col-sm-9">
+                    <a class="navbar-brand" href="index.html">Խանութ</a>
+                </div>
+                <div class="col-lg-6 col-sm-3 d-lg-flex justify-content-around">
+                    <div class="">
+                        <form class="form-inline my-2 my-lg-0 d-lg-inline d-sm-none d-lg-block">
+                            <input class="form-control mr-sm-2" type="search" placeholder="Search" aria-label="Search">
+                            <button class="btn btn-outline-primary my-2 my-sm-0" type="submit">Search</button>
+                        </form>
+                    </div>
+                    <div class="dropdown">
+                        <button class="btn btn-secondary dropdown-toggle" type="button" id="dropdownMenuButton"
+                            data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+                            My account
+                        </button>
+                        <div class="dropdown-menu" aria-labelledby="dropdownMenuButton">
+                            <a class="dropdown-item" data-toggle="modal" data-target="#exampleModal" href="#">Login</a>
+                            <a class="dropdown-item" data-toggle="modal" data-target="#example1Modal"
+                                href="#">Register</a>
+                            <a class="dropdown-item" href="myaccount.html">My Account</a>
+                            <a class="dropdown-item" href="myinfo.html">My Info</a>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </nav>
+        <nav class="navbar navbar-expand-lg navbar-dark bg-primary">
+            <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent"
+                aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+                <span class="navbar-toggler-icon"></span>
+            </button>
+
+            <div class="collapse navbar-collapse" id="navbarSupportedContent">
+                <ul class="navbar-nav w-100 d-flex justify-content-between">
+                    <li class="nav-item dropdown">
+                        <a class="nav-link active dropdown-toggle" href="#" id="navbarDropdown" role="button"
+                            data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+                            Category 1
+                        </a>
+                        <div class="dropdown-menu" aria-labelledby="navbarDropdown">
+                            <a class="dropdown-item" href="shop.html">SubCategory 1</a>
+                            <a class="dropdown-item" href="shop.html">SubCategory 2</a>
+                            <a class="dropdown-item" href="shop.html">SubCategory 3</a>
+                        </div>
+                    </li>
+                    <li class="nav-item active dropdown">
+                        <a class="nav-link dropdown-toggle" href="#" id="navbarDropdown" role="button"
+                            data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+                            Category 2
+                        </a>
+                        <div class="dropdown-menu" aria-labelledby="navbarDropdown">
+                            <a class="dropdown-item" href="shop.html">SubCategory 1</a>
+                            <a class="dropdown-item" href="shop.html">SubCategory 2</a>
+                            <a class="dropdown-item" href="shop.html">SubCategory 3</a>
+                        </div>
+                    </li>
+                    <li class="nav-item active dropdown">
+                        <a class="nav-link dropdown-toggle" href="#" id="navbarDropdown" role="button"
+                            data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+                            Category 3
+                        </a>
+                        <div class="dropdown-menu" aria-labelledby="navbarDropdown">
+                            <a class="dropdown-item" href="shop.html">SubCategory 1</a>
+                            <a class="dropdown-item" href="shop.html">SubCategory 2</a>
+                            <a class="dropdown-item" href="shop.html">SubCategory 3</a>
+                        </div>
+                    </li>
+                    <li class="nav-item active dropdown">
+                        <a class="nav-link dropdown-toggle" href="#" id="navbarDropdown" role="button"
+                            data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+                            Category 4
+                        </a>
+                        <div class="dropdown-menu" aria-labelledby="navbarDropdown">
+                            <a class="dropdown-item" href="shop.html">SubCategory 1</a>
+                            <a class="dropdown-item" href="shop.html">SubCategory 2</a>
+                            <a class="dropdown-item" href="shop.html">SubCategory 3</a>
+                        </div>
+                    </li>
+                    <li class="nav-item active dropdown">
+                        <a class="nav-link dropdown-toggle" href="#" id="navbarDropdown" role="button"
+                            data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+                            Category 5
+                        </a>
+                        <div class="dropdown-menu" aria-labelledby="navbarDropdown">
+                            <a class="dropdown-item" href="shop.html">SubCategory 1</a>
+                            <a class="dropdown-item" href="shop.html">SubCategory 2</a>
+                            <a class="dropdown-item" href="shop.html">SubCategory 3</a>
+                        </div>
+                    </li>
+                    <li class="nav-item active dropdown">
+                        <a class="nav-link dropdown-toggle" href="#" id="navbarDropdown" role="button"
+                            data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+                            Category 6
+                        </a>
+                        <div class="dropdown-menu" aria-labelledby="navbarDropdown">
+                            <a class="dropdown-item" href="shop.html">SubCategory 1</a>
+                            <a class="dropdown-item" href="shop.html">SubCategory 2</a>
+                            <a class="dropdown-item" href="shop.html">SubCategory 3</a>
+                        </div>
+                    </li>
+                </ul>
+            </div>
+        </nav>
+    </header>
+    <main>
+        <div class="row justify-content-center">
+            <div class="col-12 col-md-3 col-lg-2 p-2 d-none d-md-block">
+                <div class="list-group">
+                    <a class="list-group-item list-group-item-action btn btn-primary" href="myaccount.html">My
+                        Account</a>
+                    <a class="list-group-item list-group-item-action btn btn-primary" href="myinfo.html">My Info</a>
+                </div>
+                <div class="col-12 mt-3">
+                    <a href="#AccountDetails">Account Details</a>
+                    <br>
+                    <a href="#PaymentOptions">Payment Options</a>
+                    <br>
+                    <a href="#Shipping">Billing and Shipping</a>
+                </div>
+            </div>
+            <div class="col-md-8 m-3">
+                <div class="row justify-content-center">
+                    <div id="AccountDetails" class="col-12 bg-light p-3">
+                        <h3 class="text-primary">Account Details</h3>
+                        <p class="text-secondary" style="font-size: 12px;">
+                            Update your password, addresses, payment methods, language and currency settings.
+                        </p>
+                        <div class="row">
+                            <div class="col-12 col-md-6">
+                                <p class="text-secondary" style="font-size: 13px;">Account Information:</p>
+                                <p>Karen Muradyan</p>
+                                <p>karen.muradyan7.y@tumo.org</p>
+                            </div>
+                            <div class="col-12 col-md-6">
+                                <p class="text-secondary" style="font-size: 13px;">Language & Currency Settings:</p>
+                                <select class="custom-select col-5" id="inputGroupSelect01">
+                                    <option selected>English</option>
+                                    <option value="1">Russian</option>
+                                    <option value="2">Armenian</option>
+                                    <option value="3">Spanish</option>
+                                </select>
+                                <select class="custom-select col-5" id="inputGroupSelect01">
+                                    <option selected>USD</option>
+                                    <option value="1">EUR</option>
+                                    <option value="2">RUB</option>
+                                    <option value="3">AMD</option>
+                                </select>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div class="row justify-content-center m-2">
+                    <div class="col-12 bg-light p-3">
+                        <h3 id="PaymentOptions" class="text-primary">Payment Options</h3>
+                        <p class="text-secondary" style="font-size: 12px;">
+                            Manage saved credit cards. New payment methods may only be added in checkout due to
+                            verification
+                            requirements.
+                        </p>
+                        <div class="row">
+                            <div class="col-10">
+
+                                <div class="col-6"><img style="width: 150px;" class="m-2" src="img/cards.jpg" alt="">
+                                    <br>
+                                    <label for="ccnum">Credit card number</label>
+                                    <br>
+                                    <input class="form-control" id="ccnum" type="text"
+                                        placeholder="1111-2222-3333-4444">
+                                </div>
+                                <div class="col-6">
+                                    <label for="cname">Name on Card</label>
+                                    <br>
+                                    <input type="text" id="cname" class="form-control" placeholder="John More Doe">
+                                    <label for="expmonth">Exp Month</label>
+                                    <br>
+                                    <input type="text" id="expmonth" name="expmonth" class="form-control"
+                                        placeholder="September"></div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div id="Shipping" class="col-12 bg-light p-3">
+                    <div class="row">
+                        <div class="col-10">
+                            <h3 id="PaymentOptions" class="text-primary">Billing and Shipping</h3>
+                            <p class="text-secondary" style="font-size: 12px;">
+                                Make changes to your billing and shipping information and save them for future orders.
+                            </p>
+                        </div>
+                        <div class="col-2">
+                            <a style="text-decoration: none;" href="#">+ Add New Address</a>
+                        </div>
+                    </div>
+                    <div class="row">
+                        <div class="col-10 border-bottom">
+                            <p><strong>Karen Muradyan</strong> | TumoCenter | 16 Halabyan St | Yerevan, Yerevan 0038 AM</p>
+                        </div>
+                        <div class="col m-2">
+                            <a href="#">Edit</a>
+                            |
+                            <a href="#">Remove</a> 
+                        </div>
+                    </div>
+
+                </div>
+            </div>
+        </div>
+    </main>
+    <footer class="page-footer bg-light font-small blue pt-4">
+        <div class="container">
+            <div class="row">
+                <div class="col-lg-3 col-sm-12 border">
+                    <h4><a class="stretched-link " href="#">Contact us</a></h4>
+                </div>
+                <div class="col-lg-3 col-sm-12 border">
+                    <h4><a class="stretched-link " href="#">Live Now</a></h4>
+                </div>
+                <div class="col-lg-3 col-sm-12 border">
+                    <h4><a class="stretched-link " href="#">Shipping</a></h4>
+                </div>
+                <div class="col-lg-3 col-sm-12 border">
+                    <h4><a class="stretched-link " href="#">Terms & Conditions</a></h4>
+                </div>
+            </div>
+            <div class="container-fluid text-center text-md-left d-none d-sm-block">
+
+                <div class="row">
+
+                    <div class="col-md-6 mt-md-0 mt-3">
+
+                        <h5 class="text-uppercase">Yerevan Shop</h5>
+                        <p>The official tech importer on Armenia.</p>
+
+                    </div>
+
+                    <hr class="clearfix w-100 d-md-none pb-3">
+
+                    <div class="col mb-md-0 mb-3">
+
+                        <h5 class="text-uppercase">Links</h5>
+
+                        <ul class="list-unstyled">
+                            <li>
+                                <a href="#!">Link 1</a>
+                            </li>
+                            <li>
+                                <a href="#!">Link 2</a>
+                            </li>
+                            <li>
+                                <a href="#!">Link 3</a>
+                            </li>
+                            <li>
+                                <a href="#!">Link 4</a>
+                            </li>
+                        </ul>
+
+                    </div>
+                    <div class="col mb-md-0 mb-3">
+
+
+                        <h5 class="text-uppercase">Links</h5>
+
+                        <ul class="list-unstyled">
+                            <li>
+                                <a href="#!">Link 1</a>
+                            </li>
+                            <li>
+                                <a href="#!">Link 2</a>
+                            </li>
+                            <li>
+                                <a href="#!">Link 3</a>
+                            </li>
+                            <li>
+                                <a href="#!">Link 4</a>
+                            </li>
+                        </ul>
+
+                    </div>
+
+
+                </div>
+
+            </div>
+            <div class="row bg-dark justify-content-center">
+                <h5 class="text-primary">You can find us on:</h5>
+                <a style="font-size: 20px; margin-left: 10px;" href="#"><i class="fab fa-facebook"></i></a>
+                <a style="font-size: 20px; margin-left: 10px;" href="#"><i class="fab fa-instagram"></i></a>
+                <a style="font-size: 20px; margin-left: 10px;" href="#"><i class="fab fa-twitter"></i></a>
+                <a style="font-size: 20px; margin-left: 10px;" href="#"><i class="fab fa-youtube"></i></a>
+            </div>
+
+            <div class="footer-copyright text-center py-3">© 2020 Copyright:
+                <a href="#"> Yerevan Shop</a>
+            </div>
+
+
+    </footer>
+    <!-- Optional JavaScript -->
+    <!-- jQuery first, then Popper.js, then Bootstrap JS -->
+    <script src="https://kit.fontawesome.com/38196a33d5.js" crossorigin="anonymous"></script>
+    <script src="https://code.jquery.com/jquery-3.4.1.slim.min.js"
+        integrity="sha384-J6qa4849blE2+poT4WnyKhv5vZF5SrPo0iEjwBvKU7imGFAV0wwj1yYfoRSJoZ+n"
+        crossorigin="anonymous"></script>
+    <script src="https://cdn.jsdelivr.net/npm/popper.js@1.16.0/dist/umd/popper.min.js"
+        integrity="sha384-Q6E9RHvbIyZFJoft+2mJbHaEWldlvI9IOYy5n3zV9zzTtmI3UksdQRVvoxMfooAo"
+        crossorigin="anonymous"></script>
+    <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.4.1/js/bootstrap.min.js"
+        integrity="sha384-wfSDF2E50Y2D1uUdj0O3uMBJnjuUD4Ih7YwaYd1iqfktj0Uod8GCExl3Og8ifwB6"
+        crossorigin="anonymous"></script>
+</body>
+
+</html>
